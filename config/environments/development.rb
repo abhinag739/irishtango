@@ -38,4 +38,23 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # The default url for any email that comes out of development
+    config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+    config.action_mailer.perform_deliveries = true
+    config.action_mailer.raise_delivery_errors = true
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+    enable_starttls_auto: true,
+      address: 'smtp.gmail.com',
+      port: 587,
+      authentication: 'plain',
+      user_name: 'nileshdimpal739@gmail.com',
+      password: 'nonomomo123'
+      }
+      
+    Braintree::Configuration.environment = :sandbox
+    Braintree::Configuration.merchant_id = "d3vqhph5vcwgrkww"
+    Braintree::Configuration.public_key = "3vh3k4pdm6434qt6"
+    Braintree::Configuration.private_key = "f3c283f24580a0fa08409a173b1e8090"    
 end

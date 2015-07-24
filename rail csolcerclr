@@ -1,0 +1,30 @@
+=> [[32m#<ActiveRecord::ConnectionAdapters::Column:0x000000054f64b0[0m
+  @cast_type[32m=[0m
+   [32m#<ActiveRecord::Type::Integer:0x00000005550988[0m @limit[32m=[0m[1;36mnil[0m, @precision[32m=[0m[1;36mnil[0m, @range[32m=[0m[1;34m-2147483648[0m...[1;34m2147483648[0m, @scale[32m=[0m[1;36mnil[0m[32m>[0m,
+  @default[32m=[0m[1;36mnil[0m,
+  @default_function[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m,
+  @null[32m=[0m[1;36mfalse[0m,
+  @sql_type[32m=[0m[31m[1;31m"[0m[31mINTEGER[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<ActiveRecord::ConnectionAdapters::Column:0x000000054f62d0[0m
+  @cast_type[32m=[0m
+   [32m#<ActiveRecord::Type::Integer:0x000000054f7d88[0m @limit[32m=[0m[1;36mnil[0m, @precision[32m=[0m[1;36mnil[0m, @range[32m=[0m[1;34m-2147483648[0m...[1;34m2147483648[0m, @scale[32m=[0m[1;36mnil[0m[32m>[0m,
+  @default[32m=[0m[1;36mnil[0m,
+  @default_function[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31muser_id[1;31m"[0m[31m[0m,
+  @null[32m=[0m[1;36mtrue[0m,
+  @sql_type[32m=[0m[31m[1;31m"[0m[31minteger[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<ActiveRecord::ConnectionAdapters::Column:0x000000054f6118[0m
+  @cast_type[32m=[0m[32m#<ActiveRecord::Type::DateTime:0x000000054f6d70[0m @limit[32m=[0m[1;36mnil[0m, @precision[32m=[0m[1;36mnil[0m, @scale[32m=[0m[1;36mnil[0m[32m>[0m,
+  @default[32m=[0m[1;36mnil[0m,
+  @default_function[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mcreated_at[1;31m"[0m[31m[0m,
+  @null[32m=[0m[1;36mfalse[0m,
+  @sql_type[32m=[0m[31m[1;31m"[0m[31mdatetime[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<ActiveRecord::ConnectionAdapters::Column:0x000000054f5f38[0m
+  @cast_type[32m=[0m[32m#<ActiveRecord::Type::DateTime:0x000000054f6d70[0m @limit[32m=[0m[1;36mnil[0m, @precision[32m=[0m[1;36mnil[0m, @scale[32m=[0m[1;36mnil[0m[32m>[0m,
+  @default[32m=[0m[1;36mnil[0m,
+  @default_function[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mupdated_at[1;31m"[0m[31m[0m,
+  @null[32m=[0m[1;36mfalse[0m,
+  @sql_type[32m=[0m[31m[1;31m"[0m[31mdatetime[1;31m"[0m[31m[0m[32m>[0m]

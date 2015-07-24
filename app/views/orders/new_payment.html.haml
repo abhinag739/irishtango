@@ -1,0 +1,8 @@
+%h1 Enter the Payment
+
+=render "data", order: @order
+  
+=form_tag pay_order_path do    #will show a form which goes to the pay method in orders controller
+  #dropin
+  =form_tag "Pay", class: "btn btn-primary"      #The pay button
+  =render "braintree"          #render braintree information as well, like nonce token etc

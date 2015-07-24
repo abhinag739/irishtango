@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'activerecord-session_store', git: 'https://github.com/rails/activerecord-session_store'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -52,6 +53,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'devise'
   #A gem extracted from rails, it allows to choose a country from a list
   gem 'country_select'  
+  #Braintree payment gem server side 
+  gem 'braintree'
   
   group :test do
     #We will create some test classes, to see if a particular class works properly

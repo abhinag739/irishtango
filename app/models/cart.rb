@@ -38,7 +38,7 @@ class Cart
     items = @items.map do |item| {
                                 "product_id" => item.product_id, 
                                 "quantity" => item.quantity        
-                                }
+                                 }
   end
   
      {
