@@ -4,8 +4,7 @@ gem 'activerecord-session_store', git: 'https://github.com/rails/activerecord-se
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -70,6 +69,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
 #pry-rails command allows us to debug our rails application in real time
 gem 'pry-rails'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 end
 
 group :production do
