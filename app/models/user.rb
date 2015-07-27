@@ -8,7 +8,7 @@ validates_presence_of :name, :address, :city, :country, :postal_code
 
 def full_address
 <<EOF
-#{address}
+#{address}\
 #{postal_code} #{city}
 #{country}
 EOF

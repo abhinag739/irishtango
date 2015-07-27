@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   resources :categories
-  devise_for :users
+  devise_for :users, :controllers => { registrations: 'users/my_devise/registrations' }
   resources :products
-  
+  resources :users  
+ 
   
   resource :cart , only: [ :show ] do
   post "add", path: "add/:id"
