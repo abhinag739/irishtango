@@ -21,4 +21,10 @@ class ApplicationController < ActionController::Base
     end
   end
   
+  def authenticate_123!
+    unless authenticate_user!
+      redirect_to root_path, alert: "Please log in"
+    end
+  end
+  
 end
