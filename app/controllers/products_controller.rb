@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
   before_filter :initialize_cart
-  before_action :authenticate_admin!, only: [ :new, :edit, :update, :create, :destroy]
+  before_action :authenticate_user!, only: [ :index, :new, :edit, :update, :create, :destroy]
   
   
   # before_filter :reset_session
